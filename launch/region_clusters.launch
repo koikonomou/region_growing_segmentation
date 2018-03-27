@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+    <node pkg="region_growing_segmentation" type="region_growing_segmentation" respawn="false" name="region_growing_segmentation" output="screen">
+        <rosparam file="$(find region_growing_segmentation)/config/region_cluster_param.yaml" command="load" />
+    </node>
+</launch>

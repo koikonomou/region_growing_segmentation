@@ -1,0 +1,14 @@
+input_topic: "/new_point_cloud"
+out_topic: "/region_clusters"
+
+a: 0.0
+b: 0.0
+
+
+ksearch: 10 #50
+minclustersize: 50
+maxclustersize: 2500 #1000000
+numberofneighbours: 30
+smoothnessthreshold: 3.0/ 180.0 * M_PI
+curvaturethreshold: 1.0
+
